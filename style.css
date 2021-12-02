@@ -1,0 +1,666 @@
+body {
+	margin:0;
+	padding:0;
+}
+/*Para a div da barra*/
+.barratopo{
+    background-color:rgba(255, 255, 255, 0.5);
+    width: 100%;
+
+    margin: 0;
+    padding: 0;
+}
+/*Para a barra*/
+.barratopo ul{
+    text-align: center;
+    list-style-type: none;
+
+    padding: 0;
+    margin:0;
+}
+/*Para os botões*/
+.barratopo li{
+    background-color:rgba(255, 255, 255, 0.0); /*Colocar opacidade no hover*/
+    width: 19.47vw;
+    height: 7.61vh;
+    display: inline-block;
+
+    padding: 0;
+    margin:0;
+
+    transition-timing-function: ease-in-out;
+    transition-property: all;    
+    transition-duration: 0.1s;
+}
+.barra li:hover{
+    background-color:rgba(255, 255, 255, 0.6); /*Colocar opacidade no hover*/
+    backdrop-filter: hue-rotate(45deg);
+}
+/*Para o conteúdo do botão*/
+.barratopo li a{
+    font-family: "Ubiquitous";
+    color:#434343;
+    font-size: 2.1vh;
+    line-height: 7.61vh;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+
+    padding: 0;
+}
+/*----------------------------Background CAPA-----------------------------------------------*/
+#background{
+	background-image: url( "https://storage.googleapis.com/replit/images/1637934024237_e932e5174731cf1a4ee3b7ac0b1319ec.png");
+  background-repeat:no repeat;
+  height:115vh;
+  background-attachment: fixed;
+  background-size: cover;
+  margin:0;
+  padding:0;
+  position: relative;
+  z-index: 2;
+}
+#button {
+  position: fixed; bottom:0; right: 4.39vw;
+  margin-bottom:9.13vh;
+  width: 3.07vw;
+  height: 6.39vh;
+  z-index: 1;
+}
+/*----------------------------TÍTULOS-----------------------------------------------*/
+h1 {
+	 font-family:"Ubiquitous";
+    font-size: 30;
+    color:#434343;
+    text-align: center;
+
+    margin-top: 11.41vh;
+    margin-bottom: 11.41vh;
+    margin-right: 0;
+    margin-left:0;
+    padding:0;
+}
+h2 {
+	font-family: ubiquitous;
+	color: #434343;
+	font-size:30;
+	text-align:center;
+	margin:5.49vw;
+}
+h3 {
+	font-family: ubiquitous;
+	color: #434343;
+	font-size: 3.7vh;
+}
+p {
+	font-family: poppins;
+  font-size:2.20vh;
+  color: #434343;
+
+}
+.subtitulo p {
+	font-family: ubiquitous;
+	color: #434343;
+	font-size: 4.56vh;
+	text-align: center;
+	margin-top: 0.608vh;
+}
+#saiba_mais {
+  text-decoration: none;
+  text-align: center;
+  color: #434343;
+}
+/*----------------------JORNADA-----------------------------*/
+.curvaAZUL {
+  position: relative;
+  width:98.75vmax;
+  margin-top:-23.70vh;
+  z-index: 3;
+  margin-bottom:0 !important;
+}
+#jornada{
+    background: linear-gradient(#d3eeff,#79ffcc);
+    height:168h;
+    margin-top:0;
+    margin-bottom:0;
+    padding:0;
+}
+.tituloJORNADA{
+    font-family: "Ubiquitous";
+    font-size: 30px;
+    margin-top:0px;
+    margin-bottom:7.61vh;
+    margin-left:0;
+    margin-right:0;
+    display:inline-block;
+    text-align:center;
+    width:100%;
+}
+.descriptionONE{
+  margin-top:0;
+  margin-bottom:10vh;
+  margin-left:10vw;
+  margin-right:10vw;
+
+  font-family:"Poppins";
+  font-size:2.5vh;
+  color: #434343;
+  text-align:center;
+}
+.espacamento{
+  width:100%;
+  height:100vh;
+}
+/*--------------ARTISTAS---------------------------------------------*/
+.curvaAMARELA {
+  position: relative;
+  width:98.75vmax;
+  margin-top:20vh;
+  margin-bottom:0 !important;
+}
+.curvaAMARELA img {
+  margin:0;
+  padding:0;
+}
+#destaques {
+	background: #fff7b2;
+	height:367vh;
+	margin-top:-0.15vh;
+  padding:0;
+  margin-bottom:0;
+}
+.tituloDESTAQUE{
+  font-family: "Ubiquitous";
+  color:#434343;
+  font-size: 4.56vh;
+  margin-top:7.61vh !important;
+  margin-bottom:7.61vh;
+  margin-left:0;
+  margin-right:0;
+  display:inline-block;
+  text-align:center;
+  width:100%;
+}
+.descriptionTWO{
+  margin-top:0;
+  margin-bottom:0;
+  margin-left:10vw;
+  margin-right:10vw;
+
+  font-family: "Poppins";
+  font-size:2.5vh;
+}
+/*--------IRAN--------------------------*/
+#bloco1 {
+	padding: 0;
+  margin-top:-1.52vh;
+  margin-left:0;
+  margin-right:0;
+  margin-bottom:0;
+  height:110vh;
+  line-height: 4.5vh;
+  background-image: url(https://storage.googleapis.com/replit/images/1638225665956_7d21cb7668838c8cf927d37985be2735.png);
+  background-repeat:no-repeat;
+  background-size:100%;  
+  position: relative;
+}
+.lermaisIRAN{
+	background-color:#fff7b2;
+	border-radius: 7.61vh;
+	height:5.32vh;
+  width:6.95vw;
+  text-align: center;
+  transition-timing-function: ease-in-out;
+  transition-property: all;    
+  transition-duration: 0.3s;
+}
+.lermaisIRAN:hover{
+  background-color:#fff7b200;
+  border: 0.5vh solid #ff4b72;
+	height: 5.936vh;
+  width: 7.24vw;
+}
+.lermaisIRAN a{
+  font-family: "Ubiquitous";
+  font-size:2vh;
+  text-align:center;
+  text-decoration:none;
+  color: #434343;
+  line-height:5.32vh; 
+}
+#imgIRAN {
+  width:45vw;
+	float: left;
+	margin-left:3vw;
+  margin-top:27vh;
+
+  transition-timing-function: ease-in-out;
+  transition-property: all;    
+  transition-duration: 0.3s;
+}
+#imgIRAN:hover{
+  width:47vw;
+}
+.iran {
+	float: right;
+	width: 36.60vw;
+	height: 53.27vh;
+	margin-right: 8.78vw;
+  margin-top:49vh;
+}
+/*----------------JOANA----------------------*/
+#bloco2 {
+  height:30vh ;
+	padding: 0;
+  margin-bottom:15.22vh;
+  line-height: 4.5vh;
+}
+.joana {
+	float: left;
+	width: 36.60vw;
+	margin-left: 8.78vw;
+  margin-top:20vh;
+}
+#imgJOANA { 
+	float: right;
+  width:38vw;
+	margin-right: 3vw;
+  margin-bottom: 35vh;
+  margin-top:-10vh;
+  margin-left:0;
+
+  transition-timing-function: ease-in-out;
+  transition-property: all;    
+  transition-duration: 0.3s;
+}
+#imgJOANA:hover { 
+  width:40vw;
+  margin-bottom:31vh;
+}
+.lermaisJOANA{
+	background-color:#feddb2;
+	border-radius: 7.61vh;
+	height:5.32vh;
+  width:6.95vw;
+  text-align:center;
+  
+  transition-timing-function: ease-in-out;
+  transition-property: all;    
+  transition-duration: 0.3s;
+}
+.lermaisJOANA:hover{
+  background-color:#fff7b200;
+  border: 0.5vh solid #ff4b72;
+	height:5.936vh;
+  width:7.24vw;
+}
+.lermaisJOANA a{
+  font-family: "Ubiquitous";
+  font-size:2vh;
+  text-align:center;
+  text-decoration:none;
+  color: #434343;
+  line-height:5.32vh; 
+}
+
+/*-------LINIKER------------------------------------*/
+#bloco3 {
+	padding: 0;
+  margin:0;
+  height:110vh;
+  line-height: 4.5vh;
+  background-image: url(https://storage.googleapis.com/replit/images/1638225665956_7d21cb7668838c8cf927d37985be2735.png);
+  background-repeat:no-repeat;
+  background-size:100%;  
+}
+#imgLINIKER { 
+  float: left;
+  width: 45vw;
+  margin-left:3vw;
+  margin-top:15vh;
+
+  transition-timing-function: ease-in-out;
+  transition-property: all;    
+  transition-duration: 0.3s;
+
+}
+#imgLINIKER:hover { 
+  width: 47vw;
+}
+.liniker {
+  float: right;
+	width: 36.60vw;
+	height: 53.27vh;
+	margin-right: 8.78vw;
+  margin-top:-8vh;
+}
+.lermaisLINIKER{
+	background-color:#fff7b2;
+	border-radius: 7.61vh;
+	height:5.32vh;
+  width:6.95vw;
+  text-align: center;
+  transition-timing-function: ease-in-out;
+  transition-property: all;    
+  transition-duration: 0.3s;
+}
+.lermaisLINIKER:hover{
+  background-color:#fff7b200;
+  border: 0.5vh solid #ff4b72;
+  height: 5.936vh;
+  width: 7.24vw;
+}
+.lermaisLINIKER a{
+  font-family: "Ubiquitous";
+  font-size:2vh;
+  text-align:center;
+  text-decoration:none;
+  color: #434343;
+  line-height:5.32vh; 
+}
+/*-------------SUGERIR-------------------------------------------------*/
+.ArtAnt{
+  margin-top:0;
+  float:right;
+  margin-right:6vh;
+}
+.ArtAnt a{
+  font-family: "Poppins";
+  font-size:2.4vh;
+  font-weight:600; 
+  text-decoration:none;
+  color: #434343;
+  transition-timing-function: ease-in-out;
+  transition-property: all;    
+  transition-duration: 0.3s;
+}
+.ArtAnt a:hover{
+  font-size:2.6vh;
+  text-decoration:none;
+}
+.sugiraA{
+  margin-top:15vh;
+  padding:0;
+  margin-right:0;
+  margin-left:0;
+  margin-bottom:0;
+  font-family: "Ubiquitous";
+  font-size:2.4vh;
+  text-align:center;
+  text-decoration:none;
+  color: #434343;
+}
+.sugiraB{
+  margin-top:4vh;
+  padding:0;
+  margin-right:0;
+  margin-left:0;
+  margin-bottom:0;
+  font-family: "Ubiquitous";
+  font-size:2.4vh;
+  text-align:center;
+  text-decoration:none;
+  color: #434343;
+}
+.btn{
+  background-color:#e1b6fe;
+	border-radius: 7.61vh;
+	height:6.84vh;
+  width:14.64vw;
+  padding: 0;
+  transition-timing-function: ease-in-out;
+  transition-property: all;    
+  transition-duration: 0.3s;
+}
+.btn:hover{
+  background-color:#fff7b200;
+  border: 0.5vh solid #ff4b72;
+  height:7.15vh;
+  width:14.78vw;
+}
+.btn a{
+  font-family: "Ubiquitous";
+  font-size:2.4vh;
+  text-decoration:none;
+  color: #434343;
+  text-align: center;
+  line-height: 6.84vh;
+  padding:0;
+}
+
+/*-------------PLAYLIST-------------------------------------------------*/
+.curvaROSA {
+  position: relative;
+  width:98.75vmax;
+  margin-top:-23vh;
+  margin-bottom:0;
+}
+#playlist {
+	background: #fed9e1;
+	margin-top:-5vh;
+}
+.tituloPLAYLIST{
+  font-family: "Ubiquitous";
+  font-size: 4.56vh;
+  margin-top:0px;
+  margin-bottom:7.61vh;
+  margin-left:0;
+  margin-right:0;
+  display:inline-block;
+  text-align:center;
+  width:100%;
+}
+.descriptionTHREE {
+  margin-top:0;
+  margin-bottom:10vh;
+  margin-left:10vw;
+  margin-right:10vw;
+
+  font-family: poppins;
+  font-size:2.5vh;
+  color: #434343;
+  text-align:center;
+}
+#play {
+	text-align: center;
+  margin-top:0;
+  margin-bottom:20vh;
+  margin-right:20vh;
+  margin-left:20vh;
+
+  transition-timing-function: ease-in-out;
+  transition-property: all;    
+  transition-duration: 0.3s;
+}
+#play iframe{
+  border: 0.15vh solid rgba(0, 0, 0, 0);
+}
+/*======Para o contorno do player==========================*/
+.contorno{
+    position:relative;
+    overflow: hidden;
+    transition: .2s;
+}
+.contorno:hover{
+    background-color: rgba(240, 128, 128, 0);
+    transition-delay: 1s;
+}
+.contorno span{
+    position:absolute;
+    display:block;
+}
+/*======EFEITO DE CORRENTE=====================*/
+/*======DIREITA=====================*/
+.contorno span:nth-child(1){
+    width:0.58vw;
+    height:100%;
+    top:-100%;
+    right:0;
+    background:linear-gradient(180deg,transparent, #e1b6fe);
+}
+.contorno:hover span:nth-child(1){
+    top:100%;
+    transition:1s;
+}
+.contorno span:nth-child(2){
+    width:0.58vw;
+    height:100%;
+    top:-100%;
+    right:0;
+    background:linear-gradient(180deg,transparent, #d3eeff);
+}
+.contorno:hover span:nth-child(2){
+    top:100%;
+    transition:1s;
+    transition-delay: .15s;
+}
+.contorno span:nth-child(3){
+    width:0.58vw;
+    height:100%;
+    top:-100%;
+    right:0;
+    background:linear-gradient(180deg,transparent, #79ffcc);
+}
+.contorno:hover span:nth-child(3){
+    top:100%;
+    transition:1s;
+    transition-delay: .3s;
+}
+.contorno span:nth-child(4){
+    width:0.58vw;
+    height:100%;
+    top:-100%;
+    right:0;
+    background:linear-gradient(180deg,transparent, #fff7b2);
+}
+.contorno:hover span:nth-child(4){
+    top:100%;
+    transition:1s;
+    transition-delay: .45s;
+}
+.contorno span:nth-child(5){
+    width:0.58vw;
+    height:100%;
+    top:-100%;
+    right:0;
+    background:linear-gradient(180deg,transparent, #feddb2);
+}
+.contorno:hover span:nth-child(5){
+    top:100%;
+    transition:1s;
+    transition-delay: .6s;
+}
+.contorno span:nth-child(6){
+    width:0.58vw;
+    height:100%;
+    top:-100%;
+    right:0;
+    background:linear-gradient(180deg,transparent, #fed9e1);
+}
+.contorno:hover span:nth-child(6){
+    top:100%;
+    transition:1s;
+    transition-delay: .75s;
+}
+/*======EFEITO DE ESQUERDA====================*/
+.contorno span:nth-child(7){
+    width:0.58vw;
+    height:100%;
+    top:-100%;
+    left:0;
+    background:linear-gradient(180deg,transparent,#e1b6fe);
+}
+.contorno:hover span:nth-child(7){
+    top:100%;
+    transition:1s;
+}
+.contorno span:nth-child(8){
+    width:0.58vw;
+    height:100%;
+    top:-100%;
+    left:0;
+    background:linear-gradient(180deg,transparent, #d3eeff);
+}
+.contorno:hover span:nth-child(8){
+    top:100%;
+    transition:1s;
+    transition-delay:.15s;
+}
+.contorno span:nth-child(9){
+    width:0.58vw;
+    height:100%;
+    top:-100%;
+    left:0;
+    background:linear-gradient(180deg,transparent, #79ffcc);
+}
+.contorno:hover span:nth-child(9){
+    top:100%;
+    transition:1s;
+    transition-delay:.30s;
+}.contorno span:nth-child(10){
+    width:0.58vw;
+    height:100%;
+    top:-100%;
+    left:0;
+    background:linear-gradient(180deg,transparent, #fff7b2);
+}
+.contorno:hover span:nth-child(10){
+    top:100%;
+    transition:1s;
+    transition-delay:.45s;
+}.contorno span:nth-child(11){
+    width:0.58vw;
+    height:100%;
+    top:-100%;
+    left:0;
+    background:linear-gradient(180deg,transparent,  #feddb2);
+}
+.contorno:hover span:nth-child(11){
+    top:100%;
+    transition:1s;
+    transition-delay:.60s;
+}.contorno span:nth-child(12){
+    width:0.58vw;
+    height:100%;
+    top:-100%;
+    left:0;
+    background:linear-gradient(180deg,transparent,  #fed9e1);
+}
+.contorno:hover span:nth-child(12){
+    top:100%;
+    transition:1s;
+    transition-delay:.75s;
+}
+
+/*---RODAPÉ-------------------------------------------*/
+.rodapebottom{
+    background-image: url(https://storage.googleapis.com/replit/images/1638319403297_3530198736ec9da500996ad58238b77e.png);
+    background-size:100%;
+    height:30.441vh;
+    background-repeat:no-repeat;
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+.rodapebottom li{
+    display:inline-block;
+    font-family:"Ubiquitous";
+    font-size:2.1vh;
+    color:#ffffff;
+    margin-right: 4.56vh;
+    margin-top: 22.83vh;
+}
+.rodapebottom li a{
+    text-decoration: none;
+    color:#ffffff;
+    margin-left:2.92vw ;
+}
+.rodapebottom li a:hover{
+    text-decoration: none;
+    color:#fff7b2;
+    margin-left:2.92vw ;
+}
+.copy{
+    float:right;
+    margin-top: 0;
+}

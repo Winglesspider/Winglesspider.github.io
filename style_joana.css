@@ -1,0 +1,315 @@
+body {
+  background-image: url(https://i.imgur.com/rJFLUw7.png);
+  background-color: #FED9E1;
+  background-repeat: no-repeat;
+  background-size: 100vmax;
+  margin: 0;
+  padding: 0
+}
+.espaço{
+  padding: 46vh
+}
+
+.container{
+  margin-top:426.8vh; 
+  margin:0
+}
+
+
+.menu-topo {
+    background-color:rgba(255, 255, 255, 0.5);
+    width: 100%;
+
+    margin: 0;
+    padding: 0;
+}
+
+.menu-topo li{
+    background-color:rgba(255, 255, 255, 0.0); /*Colocar opacidade no hover*/
+    width: 19.47vw;
+    height: 7.61vh;
+    display: inline-block;
+
+    padding: 0;
+    margin:0;
+
+    transition-timing-function: ease-in-out;
+    transition-property: all;    
+    transition-duration: 0.1s;
+}
+
+.menu-topo li a{
+    font-family: "Ubiquitous";
+    color:#434343;
+    font-size: 2.1vh;
+    line-height: 7.61vh;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+
+    padding: 0;
+}
+
+.menu-topo ul{
+    text-align: center;
+    list-style-type: none;
+
+    padding: 0;
+    margin:0;
+}
+
+.menu-topo li a:hover{
+    background-color:rgba(255, 255, 255, 0.6); /*Colocar opacidade no hover*/
+    backdrop-filter: hue-rotate(45deg);
+}
+
+h1{
+  font-family: Ubiquitous;
+  color: #434343;
+  margin-bottom: 3vh
+}
+
+p{
+	font-family: Poppins;
+	margin-bottom: 2vh;
+  font-size: 2.5vh;
+  color: #434343
+}
+
+.imagem1{
+  width: 35vw
+}
+
+.texto {
+  float: right;
+	width: 85.59vh;
+	height: 35vh;
+	margin-right: 10vw;
+  margin-top: -1vh
+}
+
+.slide{
+	width: 98.9vmax;
+	margin: 0;
+	padding: 0;
+}
+
+.carro{
+  margin-top:25vh;
+	margin-left: 0;
+  margin-right:0;
+	padding: 0;
+	width: 98.9vmax;
+	overflow: hidden;
+}
+
+.carro ul{
+  background:#fff7b2;
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.carro li {
+  width: 98.9vmax;
+  margin-bottom:1vh;
+  text-align: center;
+	position: relative;
+	animation: slides 50s infinite ease-out;
+
+  font-family: "Poppins";
+  font-size: 2.2vh;
+  margin-top:1.5vh;
+  font-weight:600;
+  color: #434343;
+  
+}
+
+@keyframes slides{
+	0%{left: 0vmax}
+
+	9%{left: 0vmax}
+
+	10%{left: -98.9vmax;}
+
+	19%{left: -98.9vmax;}
+
+	20%{left: -197.8vmax;}
+	
+	29%{left: -197.8vmax;}
+
+	30%{left: -296.7vmax;}
+
+	39%{left: -296.7vmax;}
+
+	40%{left: -395.6vmax;}
+	
+	49%{left: -395.6vmax;}
+
+	50%{left: -494.5vmax;}
+	
+	59%{left: -494.5vmax;}
+	
+	60%{left: -593.4vmax;}
+
+	69%{left: -593.4vmax;}
+
+	70%{left: -692.3vmax;}
+	
+	79%{left: -692.3vmax;}
+	
+	80%{left: -791.2vmax;}
+	
+	89%{left: -791.2vmax;}
+
+	90%{left: -890.1vmax;}
+	
+	99%{left: -890.1vmax;}
+
+	100%{left: 0vmax;}
+}
+
+/*.bandeiras {
+  margin-right: 0;
+  margin-left: 0;
+  margin-top: 15vh; 
+  background: #FFF7B2
+}*/
+
+.imagem{
+  width: 98.9vmax;
+}
+
+.binary{
+  margin-right:10vw ;
+  float: right;
+}
+
+.NB {
+  width: 15vw;
+  margin-bottom: 30vh;
+  float: right;
+}
+
+.acompanhe{
+  margin-top:12vh;
+  margin-bottom:0;
+  margin-left:10vw;
+  margin-right:10vw;
+
+  font-family:"Poppins";
+  font-weight: 600;
+  font-size:2.8vh;
+  color: #434343;
+  text-align:center;
+}
+
+.menu-redes {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-redes li{
+  background-color: #E1B6FE ;
+  height: 3.8vw;
+  display: inline-block;
+  border-radius: 1vw;
+  margin: 4vw;
+  padding: 0;
+}
+
+.menu-redes li a{
+  width: 30vh; 
+	font-family: "Poppins";
+  font-weight: 600;
+  font-size: 2.7vh;
+	text-decoration: none;
+	height: 3.8vw;
+	color: #3C0B5D;
+	display: block;
+	padding: 0;
+  margin: 0;
+	text-align: left;
+	line-height: 3.8vw;
+  transition-timing-function: ease-in-out;
+  transition-property: all;    
+  transition-duration:0.3s;}
+
+.menu-redes li a:hover{
+font-size:2.9vh;}
+
+
+.instagram{
+  vertical-align: middle;
+  margin-right: 1vh;
+  margin-left: 1vh;
+  width:5.7vh
+}
+
+.imagem3{
+  width: 98.9vmax
+}
+
+.ArtAnt{
+  margin-top:5vh;
+  margin-left:82%;
+  margin-right:6vh;
+  margin-bottom:15vh;
+}
+.ArtAnt a{
+  font-family: "Poppins";
+  font-size:2.4vh;
+  font-weight:600; 
+  text-decoration:none;
+  color: #434343;
+  transition-timing-function: ease-in-out;
+  transition-property: all;    
+  transition-duration: 0.3s;
+}
+.ArtAnt a:hover{
+  font-size:2.6vh;
+  text-decoration:none;
+  
+}
+/* RODAPÉ*/
+
+.rodape{
+  background-image: url(https://storage.googleapis.com/replit/images/1638319403297_3530198736ec9da500996ad58238b77e.png);
+  background-size: 100vmax;
+  height: 30vh
+}
+
+.rodapebottom{
+    background-image: url(https://storage.googleapis.com/replit/images/1638319403297_3530198736ec9da500996ad58238b77e.png);
+    background-size:100%;
+    height:30.441vh;
+    background-repeat:no-repeat;
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+.rodapebottom li{
+    display:inline-block;
+    font-family:"Ubiquitous";
+    font-size:2.1vh;
+    color:#ffffff;
+    margin-right: 4.56vh;
+    margin-top: 22.83vh;
+}
+.rodapebottom li a{
+    text-decoration: none;
+    color:#ffffff;
+    margin-left:2.92vw ;
+}
+.rodapebottom li a:hover{
+    text-decoration: none;
+    color:#fff7b2;
+    margin-left:2.92vw ;
+}
+.copy{
+    float:right;
+    margin-top: 0;
+}

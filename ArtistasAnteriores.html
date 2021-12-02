@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="utf-8">
+	<title>Artistas Anteriores</title>
+   <link rel="icon" href="https://storage.googleapis.com/replit/images/1638295662498_7f885b8fd01bcc8ef48fa3b33f012809.png">
+   <link rel="stylesheet" type="text/css" href="style_ArtistasAnteriores.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+   <link href="http://fonts.cdnfonts.com/css/ubiquitous" rel="stylesheet">
+                
+ </head>   
+<body>      
+   <div class="barra">
+      <ul class= "barratopo">
+         <li> <a href="index.html#jornada">Jornada</a></li>
+         <li> <a href="index.html">Home</a></li> 
+         <li> <a href="FaleConosco.html">Sugestão</a></li> 
+         <li> <a href="index.html#playlist">Playlist</a></li>
+         <li> <a href="sobre.html">Sobre</a></li>
+      </ul>  
+   </div>
+   
+   <div class="titulo">
+      ARTISTAS ANTERIORES
+   </div>
+
+   <div class="categorias">
+      <a href="#" id="btn_musica">Música</a>
+      <a href="#" id="danca">Dança</a>
+      <a href="#" id="pintura">Pintura</a>
+      <a href="#" id="escultura">Escultura</a>
+      <a href="#" id="btn_teatro">Teatro</a>
+      <a href="#" id="literatura">Literatura</a>
+      <a href="#" id="cinema">Cinema</a>
+      <a href="#" id="fotografia">Fotografia</a>
+      <a href="#" id="hq">Histórias em quadrinhos</a>
+      <a href="#" id="je">Jogos eletrônicos</a>
+      <a href="#" id="btn_ad">Arte Digital</a>
+   </div>
+
+   <div class="busca">
+      <div class="img"><img src="https://storage.googleapis.com/replit/images/1638192759047_27cda35718faabbd4b5ec8f4a57abd10.png" alt="Barra de pesquisa" width="20"></div>
+      <div class="txt">Buscar</div> 
+   </div>
+    <!--  
+   <div class="filtro">
+         <div class="item roxo">A</div>
+         <div class="item roxo">B</div>
+         <div class="item roxo">C</div>
+         <div class="item roxo">D</div>
+         <div class="item roxo">E</div>
+         <div class="item roxo">F</div>
+         <div class="item roxo">G</div>
+         <div class="item roxo">H</div>
+         <div class="item roxo">I</div>
+         <div class="item roxo">J</div>
+         <div class="item roxo">K</div>
+         <div class="item roxo">L</div>
+         <div class="item roxo">M</div>
+         <div class="item roxo">N</div>
+         <div class="item roxo">O</div>
+         <div class="item roxo">P</div>
+         <div class="item roxo">Q</div>    
+         <div class="item roxo">R</div>
+         <div class="item roxo">S</div>
+         <div class="item roxo">T</div>
+         <div class="item roxo">U</div>
+         <div class="item roxo">V</div>
+         <div class="item roxo">W</div>
+         <div class="item roxo">X</div>
+         <div class="item roxo">Y</div>
+         <div class="item roxo">Z</div>
+         <div class="item roxo abrir">A</div> essa tem que sumir porq ta servindo como botão para abrir, e quando for filtrar, a função de filtro deve ser aplicada na de cima
+         <div class="vermelho">X</div>
+   </div>-->
+
+   <div class="artistas">
+      <ul class="artlist">
+         
+         <li class="art teatro I">
+            <a href="irandhir.html" >
+            <img src="https://storage.googleapis.com/replit/images/1638192257996_097a4275f4704505a65134b14a9251a4.png" alt="colagem feita com foto do artista Irandir Santos">
+            <p>Irandhir Santos</p>
+            </a> 
+         </li>
+         
+
+         <li class="art digital J">
+            <a href="joana.html" >
+               <img src="https://storage.googleapis.com/replit/images/1638192388013_4a5ea78e55ab41b8a3f3d9b9cd4a4236.png" alt="colagem feita com foto ilustração da artista Joana Fraga">
+               <p>Joana Fraga</p>
+               </a> 
+         </li>
+        
+         <li class="art musica L">
+            <a href="liniker.html" >
+               <img src="https://storage.googleapis.com/replit/images/1638192422252_ceebd72ecfac1faeca65abdc6558fb43.png" alt="colagem feita com foto da artista Liniker">
+               <p>Liniker</p>
+               </a> 
+         </li> 
+         </ul>
+   </div>
+
+   
+   <div class="rodape">
+      <ul class= "rodapebottom">
+         <li> <a href="Sugestao.html">FALE CONOSCO</a></li>
+         <li> Português(Br)</li> 
+         <li class="copy">Copyright  © LP&A 2021 - Todos os direitos reservados</li> 
+      </ul>  
+   </div>
+   
+
+<script >
+/*Filtro por categorias*/
+   let lista = document.querySelectorAll('.artlist');
+   let musica = document.querySelectorAll('.musica');
+   let teatro = document.querySelectorAll('.teatro');
+   let digital = document.querySelectorAll('.digital');
+
+/*-----Esconder teatro------------------------------------*/
+   function HideTeatro(){
+      let lista = document.querySelectorAll('.teatro');
+      for (let teatro of lista)
+         teatro.classList.add("removed");
+      }
+/*-----Esconder musica------------------------------------*/
+   function HideMusica(){
+      let lista = document.querySelectorAll('.musica');
+      for (let musica of lista)
+         musica.classList.add("removed");
+      }
+/*-----Esconder arte digital------------------------------------*/
+   function HideArteDigital(){
+      let lista = document.querySelectorAll('.digital');
+      for (let digital of lista)
+         digital.classList.add("removed");
+      }
+
+/*-----Mostra teatro------------------------------------*/
+function ShowTeatro(){
+      let lista = document.querySelectorAll('.teatro');
+      for (let teatro of lista)
+         teatro.classList.remove("removed");
+      }
+/*-----Mostrar musica------------------------------------*/
+   function ShowMusica(){
+      let lista = document.querySelectorAll('.musica');
+      for (let musica of lista)
+         musica.classList.remove("removed");
+      }
+/*-----Mostrar arte digital------------------------------------*/
+   function ShowArteDigital(){
+      let lista = document.querySelectorAll('.digital');
+      for (let digital of lista)
+         digital.classList.remove("removed");
+      }
+/*------Mostrar todos(Botão inativo)-----------------------------------*/
+   function mostrartodos(){
+      let lista = document.querySelectorAll('.art');
+      for (let art of lista)
+         art.classList.remove("removed");
+   }
+/*------Esconder todos(Para outras categorias)-----------------------------------*/
+function escondertodos(){
+      let lista = document.querySelectorAll('.art');
+      for (let art of lista)
+         art.classList.add("removed");
+   }
+/*------Botão Música-----------------------------------*/
+   let btn_musica = document.querySelector("#btn_musica");
+   btn_musica.onclick = function() {
+      HideArteDigital();
+      HideTeatro();
+      ShowMusica();
+      if (btn_musica.classList.contains("selecionado")){
+         mostrartodos();
+         btn_musica.classList.toggle("selecionado");
+      }
+      else {
+         btn_musica.classList.toggle("selecionado");
+      }
+   }
+/*------Botão Teatro-----------------------------------*/
+   let btn_teatro = document.querySelector("#btn_teatro");
+   btn_teatro.onclick = function() { 
+      HideMusica();
+      HideArteDigital();
+      ShowTeatro();
+      if (btn_teatro.classList.contains("selecionado")){
+         mostrartodos();
+         btn_teatro.classList.toggle("selecionado");
+      }
+      else {
+         btn_teatro.classList.toggle("selecionado");
+      }
+   }
+/*------Botão Arte digital-----------------------------------*/
+let btn_ad = document.querySelector("#btn_ad");
+   btn_ad.onclick = function() { 
+      HideMusica();
+      HideTeatro();
+      ShowArteDigital();
+      if (btn_ad.classList.contains("selecionado")){
+         mostrartodos();
+         btn_ad.classList.toggle("selecionado");
+      }
+      else {
+         btn_ad.classList.toggle("selecionado");
+      }
+   }
+    
+/*------Botão Dança-----------------------------------*/
+let btn_danca = document.querySelector("#danca");
+   btn_danca.onclick = function() {
+      escondertodos();
+      if (btn_danca.classList.contains("selecionado")){
+         mostrartodos();
+         btn_danca.classList.toggle("selecionado");
+      }
+      else {
+         btn_danca.classList.toggle("selecionado");
+      }
+   }
+/*------Botão Pintura-----------------------------------*/
+let btn_pintura = document.querySelector("#pintura");
+   btn_pintura.onclick = function() {
+      escondertodos();
+      if (btn_pintura.classList.contains("selecionado")){
+         mostrartodos();
+         btn_pintura.classList.toggle("selecionado");
+      }
+      else {
+         btn_pintura.classList.toggle("selecionado");
+      }
+   }
+/*------Botão Escultura-----------------------------------*/
+let btn_escultura = document.querySelector("#escultura");
+   btn_escultura.onclick = function() {
+      escondertodos();
+      if (btn_escultura.classList.contains("selecionado")){
+         mostrartodos();
+         btn_escultura.classList.toggle("selecionado");
+      }
+      else {
+         btn_escultura.classList.toggle("selecionado");
+      }
+   }
+/*------Botão Literatura-----------------------------------*/
+let btn_literatura = document.querySelector("#literatura");
+   btn_literatura.onclick = function() {
+      escondertodos();
+      if (btn_literatura.classList.contains("selecionado")){
+         mostrartodos();
+         btn_literatura.classList.toggle("selecionado");
+      }
+      else {
+         btn_literatura.classList.toggle("selecionado");
+      }
+   }
+/*------Botão Cinema-----------------------------------*/
+let btn_cinema = document.querySelector("#cinema");
+   btn_cinema.onclick = function() {
+      escondertodos();
+      if (btn_cinema.classList.contains("selecionado")){
+         mostrartodos();
+         btn_cinema.classList.toggle("selecionado");
+      }
+      else {
+         btn_cinema.classList.toggle("selecionado");
+      }
+   }
+/*------Botão Fotografia-----------------------------------*/
+let btn_fotografia = document.querySelector("#fotografia");
+   btn_fotografia.onclick = function() {
+      escondertodos();
+      if (btn_fotografia.classList.contains("selecionado")){
+         mostrartodos();
+         btn_fotografia.classList.toggle("selecionado");
+      }
+      else {
+         btn_fotografia.classList.toggle("selecionado");
+      }
+   }
+/*------Botão HQ-----------------------------------*/
+let btn_HQ = document.querySelector("#hq");
+   btn_HQ.onclick = function() {
+      escondertodos();
+      if (btn_HQ.classList.contains("selecionado")){
+         mostrartodos();
+         btn_HQ.classList.toggle("selecionado");
+      }
+      else {
+         btn_HQ.classList.toggle("selecionado");
+      }
+   }
+/*------Botão JE-----------------------------------*/
+let btn_JE = document.querySelector("#je");
+   btn_JE.onclick = function() {
+      escondertodos();
+      if (btn_JE.classList.contains("selecionado")){
+         mostrartodos();
+         btn_JE.classList.toggle("selecionado");
+      }
+      else {
+         btn_JE.classList.toggle("selecionado");
+      }
+   }
+
+
+/*Função para abrir filtro alfabético*/
+
+/*Filtro Alfabético*/
+</script>   
+</body>
+</html>

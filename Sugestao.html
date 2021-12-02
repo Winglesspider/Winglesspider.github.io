@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sugestão</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="Sugestao.css">
+    <link rel="icon" href="https://storage.googleapis.com/replit/images/1638295662498_7f885b8fd01bcc8ef48fa3b33f012809.png">
+    <link rel="icon" href="https://storage.googleapis.com/replit/images/1638295662498_7f885b8fd01bcc8ef48fa3b33f012809.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/ubiquitous" rel="stylesheet">
+                
+</head>
+<body>
+  
+    <div class="barra">
+       <ul class= "barratopo">
+          <li> <a href="index.html#jornada">Jornada</a></li>
+          <li> <a href="index.html#destaques">Artistas</a></li> 
+          <li> <a href="sobre.html">Sobre</a></li>
+          <li> <a href="index.html#playlist">Playlist</a></li>
+          <li> <a href="index.html">Home</a></li>
+         </ul>  
+    </div> 
+
+<div class="corpo">  
+
+<div id="div1">
+   <div class="box border-radius border"> 
+       <div class="card1">
+         <div class="text"><!--Parte da Frente-->
+           <div class="h2">
+           <h2>Fale Conosco</h2>
+           </div>
+           <div class="texto">
+             <p>Dúvidas a tirar? Problemas a relatar?<br>Essa é a hora e o lugar!</p>
+           </div>
+          
+           <img src="https://storage.googleapis.com/replit/images/1638383254922_9f59967ad54f0b85e735243ec9ef8563.png" alt="Imagem de Estrela1" class="estr1">
+           <img src="https://storage.googleapis.com/replit/images/1638383377766_fb2d9daf26296ee9d7a37b9ef33c932b.png" alt="Imagem de Estrela2" class="estr2">
+           <img src="https://storage.googleapis.com/replit/images/1638383254922_9f59967ad54f0b85e735243ec9ef8563.png" alt="Imagem de Estrela" class="estr3">
+           <img src="https://storage.googleapis.com/replit/images/1638383254922_9f59967ad54f0b85e735243ec9ef8563.png" alt="Imagem de Estrela4" class="estr4">
+           <img src="https://storage.googleapis.com/replit/images/1638383608506_394e292750ba344456d1223c51cb957e.png" alt="Imagem em Efeito Zoom Telefonista" class="fale">
+                     
+         <div class="more-btn"><!--BOTAO SUBIR-->
+          
+           <i class="fa fa-plus"></i>
+           
+           </div>
+         </div>
+         
+         <div class="more-text1"> <!--Parte de trás-->
+          
+          <div class="wrapper1">
+            <div class="title-text">
+               <div class="title login">
+                  Fale Conosco
+               </div>
+               <div class="title signup">
+                  Fale Conosco
+               </div>
+            </div>
+            <div class="form-container">
+               <div class="slide-controls">
+                  <input type="radio" name="slide" id="login" checked>
+                  <input type="radio" name="slide" id="signup">
+                  <label for="login" class="slide login">Dúvidas</label>
+                  <label for="signup" class="slide signup">Problemas</label>
+                  <div class="slider-tab"></div>
+               </div>
+               <div class="form-inner"><!---DÚVIDAS-->
+                  <form action="#" class="login">
+                     <div class="field">
+                        <input type="text" placeholder="Nome" required>
+                     </div>
+                     <div class="field">
+                       <input type="text" placeholder="E-mail" required>
+                    </div>
+                    <div class="field">
+                       <input type="text" placeholder="Descreva sua dúvida aqui" required>
+                    </div>
+                     <div class="field btn">
+                        <div class="btn-layer"></div>
+                        <input type="submit" value="Enviar"> <!--BOTÃO ENVIAR Problema-->
+                     </div>
+                     <!--<div class="signup-link">
+                        Not a member? <a href="">Signup now</a>
+                     </div>-->
+                  </form><!---PROBLEMAS-->
+                  <form action="#" class="signup">
+                    <div class="field">
+                      <input type="text" placeholder="Nome" required>
+                   </div>
+                     <div class="field">
+                       <input type="text" placeholder="E-mail" required>
+                    </div>
+                    <div class="field">
+                       <input type="text" placeholder="Descreva seu problema aqui" required>
+                    </div>
+                     <div class="field btn">
+                        <div class="btn-layer"></div>
+                        <input type="submit" value="Enviar">
+                     </div>
+                  </form>
+               </div>
+             </div>
+                   
+         <script>
+            const loginText = document.querySelector(".title-text1 .login");
+            const loginForm = document.querySelector("form.login");
+            const loginBtn = document.querySelector("label.login");
+            const signupBtn = document.querySelector("label.signup");
+            const signupLink = document.querySelector("form .signup-link a");
+            signupBtn.onclick = (()=>{
+              loginForm.style.marginLeft = "-50%";
+              loginText.style.marginLeft = "-50%";
+            });
+            loginBtn.onclick = (()=>{
+              loginForm.style.marginLeft = "0%";
+              loginText.style.marginLeft = "0%";
+            });
+            signupLink.onclick = (()=>{
+              signupBtn.click();
+              return false;
+            });
+         </script>
+
+           </div>
+          </div>
+         </div>
+       </div>
+</div>
+
+
+<div id="div2">
+  <div class="box border-radius border"> 
+       <div class="card">
+         <div class="text"><!--Parte da Frente-->
+           <div class="h2">
+           <h2>Sugestão</h2>
+           </div>
+           <div class="texto">
+             <p>Quem você quer ver nos próximos destaques?<br> Conta para gente!</p>
+           </div>
+           <img src="https://storage.googleapis.com/replit/images/1638383377766_fb2d9daf26296ee9d7a37b9ef33c932b.png" alt="Imagem de Estrela1" class="estr1">
+           <img src="https://storage.googleapis.com/replit/images/1638383254922_9f59967ad54f0b85e735243ec9ef8563.png" alt="Imagem de Estrela2" class="estr2">
+           <img src="https://storage.googleapis.com/replit/images/1638384034118_fb2d9daf26296ee9d7a37b9ef33c932b.png" alt="Imagem de Estrela3" class="estr3">
+           <img src="https://storage.googleapis.com/replit/images/1638383254922_9f59967ad54f0b85e735243ec9ef8563.png" alt="Imagem de Estrela4" class="estr4">
+           <img src="https://storage.googleapis.com/replit/images/1638383758194_ec3c5329a18191318dff5b3dd6f3cd53.png" alt="Imagem em Efeito Zoom megafone" class="sugestao">
+           
+         <div class="more-btn"><!--bolinha para subir-->
+           <i class="fa fa-plus"></i>
+           </div>
+         </div>
+         
+         <div class="more-text"> <!--Parte de trás-->
+          <div class="wrapper">
+            <div class="title-text">
+               <div class="title login">
+                  Sugestões
+               </div>
+               
+            </div>
+            <div class="form-container">
+               <div class="slide-controls">
+                  <input type="radio" name="slide" id="login" checked>
+                  <input type="radio" name="slide" id="signup">
+                  <div class="slider-tab"></div>
+               </div>
+               <div class="form-inner"><!---SUGESTOES-->
+                  <form action="#" id="login">
+                     <div class="field">
+                        <input type="text" placeholder="Nome" required>
+                     </div>
+                     <div class="field">
+                       <input type="text" placeholder="E-mail" required>
+                    </div>
+                    <div class="field">
+                       <input type="text" placeholder="Conta aí, quem você quer ver?" required>
+                    </div>
+                     <div class="field btn">
+                        <div class="btn-layer"></div>
+                        <input type="submit" value="Enviar"> <!--BOTÃO ENVIAR Problema-->
+                     </div>
+                  </form><!---INSCREVA-SE-->
+                  <form action="#" class="signup">
+                    <div class="field">
+                      <input type="text" placeholder="Nome" required>
+                   </div>
+                     <div class="field">
+                       <input type="text" placeholder="E-mail" required>
+                    </div>
+                    <div class="field">
+                       <input type="text" placeholder="Escreva um pouco sobre você, o que você faz?" required>
+                    </div>
+                     <div class="field btn">
+                        <div class="btn-layer"></div>
+                        <input type="submit" value="Enviar">
+
+                     </div>
+                  </form>
+               </div>
+  </div>
+             
+  <script>
+    const loginText = document.querySelector(".title-text .login");
+    const loginForm = document.querySelector("form.login");
+    const loginBtn = document.querySelector("label.login");
+    const signupBtn = document.querySelector("label.signup");
+    const signupLink = document.querySelector("form .signup-link a");
+      signupBtn.onclick = (()=>{
+      loginForm.style.marginLeft = "-50%";
+      loginText.style.marginLeft = "-50%";
+        });
+      loginBtn.onclick = (()=>{
+      loginForm.style.marginLeft = "0%";
+      loginText.style.marginLeft = "0%";
+      });
+      signupLink.onclick = (()=>{
+      signupBtn.click();
+        return false;
+      });
+  </script>
+
+           </div>
+          </div>
+         </div>
+       </div>
+</div>
+</div>
+   <!--</div>-->
+<!--</div>-->
+<!--JAVA PARA INTRAÇÃO DO BOTÃO-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+  $(document).ready(function(){
+$(".more-btn").on('click',function(){
+$(this).parent().parent().find(".more-text1").toggleClass("active");
+});
+});
+      $(document).ready(function(){
+  $(".more-btn").on('click',function(){
+    $(this).parent().parent().find(".more-text").toggleClass("active");
+    });
+    });
+</script>
+
+<div class="descriptionONE">Você também pode entrar em contato através do nosso Instagram ou Email</div>
+
+<div class="contatos">
+  <ul>
+    <li><a href="#"><span class="the_joker"><img src="https://i.imgur.com/F0kjKvE.png" class="redes" alt="instagram">@lovepride.art</span></a></li>
+    <li><a href="#"><span class="the_joker"><img src="https://i.imgur.com/69emLGX.png" alt="ícone de carta com o símbolo'@'" class="redes">love.pride.art@gmail.com</span></a></li>
+  </ul>
+</div>
+ <div class="rodape">
+      <ul class= "rodapebottom">
+         <li> <a href="#">FALE CONOSCO</a></li>
+         <li> Português(Br)</li> 
+         <li class="copy">Copyright  © LP&A 2021 - Todos os direitos reservados</li> 
+      </ul>  
+   </div>
+
+
+</body>
+</html>
